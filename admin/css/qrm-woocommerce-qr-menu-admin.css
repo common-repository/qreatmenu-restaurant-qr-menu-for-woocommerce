@@ -1,0 +1,155 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+.qrm-wrapper {
+	max-width: 1200px;
+}
+
+.qrm-admin-page h1 {
+	margin: 30px 0;
+}
+
+.qrm-admin-page h2 {
+	font-size: 21px;
+}
+
+.qrm-content-section {
+	background: #FFF;
+	border: 1px solid #ddd;
+	margin: 0 0 1em 0;
+	padding: 1em 2em 2em 2em;
+}
+
+.qrm-section-title {
+	border-bottom: solid 1px #eee;
+	padding-bottom: 10px;
+}
+
+.qrm-section-title h2 {
+	margin-bottom: 0;
+}
+
+.qrm-section-title p {
+	color: #777;
+}
+
+
+.qrm-fields {
+	margin-top: 30px;
+}
+
+.qrm-field h4 {
+	margin-bottom: 10px;
+}
+
+.qrm-svg-code {
+	padding: 20px 0;
+	display: none;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.qrm-svg-code svg {
+	width: 150px;
+}
+
+.wp-core-ui .qrm-svg-code a {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.qr-buttons h4 {
+	display: inline-block;
+	color: #666;
+	font-weight: 400;
+}
+
+#qrcodePNG {
+	margin-bottom: 10px;
+}
+
+#qrcodePNG {
+	display: none !important;
+}
+
+.qrm-header-section ul.qrm-anchor-menu li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.qrm-header-section ul.qrm-anchor-menu li::after {
+	content: "|";
+}
+
+.qrm-header-section ul.qrm-anchor-menu li:last-child::after {
+	content: "";
+}
+
+
+.qrm-header-section ul.qrm-anchor-menu li a {
+	line-height: 2;
+	padding: .2em;
+	text-decoration: none;
+}
+
+
+/* Guide */
+
+.quick-quide-content {
+	display: flex;
+	margin-top: 40px;
+}
+
+.quick-quide-content .qrm-step {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+}
+
+@media (max-width: 1200px) {
+	.quick-quide-content {
+		flex-flow: row wrap;
+	}
+
+	.quick-quide-content .qrm-step {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 480px) {
+	.quick-quide-content {
+		flex-flow: row wrap;
+	}
+
+	.quick-quide-content .qrm-step {
+		flex: 100%;
+		max-width: 100%;
+		margin-bottom: 40px;
+	}
+}
+
+
+.qrm-guide-circle {
+	text-align: center;
+}
+
+.qrm-guide-circle img {
+	width: 220px;
+}
+
+.qrm-guide-circle h3 {
+	font-size: 16px;
+	line-height: 1.2;
+	margin: 10px 20px 0;
+}
+
+.qrm-guide-circle h4 {
+	opacity: 0.5;
+}

@@ -1,0 +1,348 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+
+/* Global */
+
+
+@media only screen and (max-width: 480px) {
+
+	body.qrm {
+		font-size: 16px;
+	}
+
+}
+
+
+@media only screen and (min-width: 1280px) {
+
+	body.qrm {
+		font-size: 26px;
+	}
+
+}
+
+.qrm.woocommerce h1,
+.qrm.woocommerce h2,
+.qrm.woocommerce h6 {
+	margin: 0.6em 0;
+	text-transform: none;
+	letter-spacing: normal;
+	font-weight: 700;
+}
+
+
+.qrm.woocommerce a {
+	text-decoration: none;
+	color: #222;
+	border-bottom: 0;
+	box-shadow: inset 0 0 0 !important;
+}
+
+.qrm.woocommerce ul.products li.product a img {
+	margin-bottom: 0;
+}
+
+.qrm .qrm-shop-button {
+	display: none;
+	clear: both;
+	position: relative;
+	align-items: center;
+	min-height: 32px;
+	width: auto;
+}
+
+@media (max-width: 576px) {
+	.qrm .qrm-shop-button {
+		display: flex;
+	}
+}
+
+.qrm .qrm-shop-button h6 {
+	background: #f0f0f0;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	text-transform: uppercase;
+	padding: 1.2em;
+	margin: 0;
+	font-size: 0.7em;
+	line-height: 0.7em;
+	letter-spacing: 0.6px;
+	padding-left: 30px;
+}
+
+.qrm .qrm-shop-button:before {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	content: "";
+	width: 12px;
+	height: 12px;
+	background: url(../img/arrow.svg) center;
+	background-size: 100% !important;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	top: 50%;
+	margin-top: -7px;
+}
+
+@media (max-width: 768px) {
+
+	.qrm.woocommerce ul.products li.product,
+	.qrm.woocommerce-page ul.products li.product {
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+
+	.qrm.woocommerce ul.products li.product-category,
+	.qrm.woocommerce-page ul.products li.product-category {
+		width: calc(50% - 10px) !important;
+		float: left;
+		margin: 0 0 20px !important;
+		border: 0 !important;
+	}
+
+	.woocommerce ul.products li.product-category:nth-child(2n),
+	.woocommerce-page ul.products li.product-category:nth-child(2n) {
+		margin-left: 20px !important;
+	}
+
+}
+
+.qrm.woocommerce ul.products li.product-category a {
+	text-align: left;
+}
+
+.qrm.woocommerce ul li.type-product {
+	display: flex;
+	flex-flow: column;
+}
+
+.qrm-product-right {
+	padding: 0.5em;
+}
+
+
+.qrm.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.qrm.woocommerce ul.products li.product .woocommerce-loop-product__title {
+	text-transform: none;
+	letter-spacing: normal;
+	font-size: 1.1em;
+	font-weight: 700;
+	margin: 0;
+	text-align: left;
+	/* margin-bottom: 0.4em; */
+}
+
+.qrm.woocommerce ul.products,
+.qrm.woocommerce-page ul.products {
+	padding-top: 1em;
+	border: 0;
+}
+
+.qrm.woocommerce ul.products[class*=columns-] li.product,
+.qrm.woocommerce-page ul.products[class*=columns-] li.product {
+	margin-bottom: 20px;
+}
+
+.qrm.woocommerce ul.products li.product .price {
+	font-size: 0.85em;
+	color: #77a464;
+	letter-spacing: -0.5px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	text-align: left;
+}
+
+.qrm.woocommerce .qrm-product-left {
+	position: relative;
+}
+
+.qrm.woocommerce .qrm-product-left img {
+	margin-bottom: 0;
+}
+
+.qrm-product-top {
+	text-align: left;
+}
+
+@media only screen and (max-width: 480px) {
+
+	.qrm.woocommerce ul.products[class*=columns-] li.product:not(.product-category),
+	.qrm.woocommerce-page ul.products[class*=columns-] li.product:not(.product-category) {
+		padding: 20px 16px;
+	}
+
+	.qrm.woocommerce ul.products li.product .woocommerce-loop-category__title,
+	.qrm.woocommerce ul.products li.product .woocommerce-loop-product__title {
+		margin-bottom: 0;
+	}
+
+
+	.qrm.woocommerce ul.products li.type-product,
+	.qrm.woocommerce-page ul.products li.type-product {
+		display: flex !important;
+		flex-flow: row;
+	}
+
+	.qrm-product-left {
+		flex: 90px;
+		max-width: 90px;
+		max-width: 90px;
+		height: 90px;
+		order: 2;
+		float: left;
+	}
+
+	.qrm.woocommerce .qrm-product-left img {
+		height: 90px;
+		width: 90px;
+		object-fit: cover;
+	}
+
+	.qrm-product-right {
+		flex: 1;
+		padding: 0 1em;
+		padding-left: 0;
+		float: left;
+	}
+
+	.qrm-product-top {
+		display: flex;
+		align-items: center;
+	}
+
+	.woocommerce-loop-product__title {
+		flex: 1;
+	}
+
+	.qrm.woocommerce ul.products li.product .price {
+		width: unset;
+	}
+}
+
+.qrm-product-summarize {
+	margin-top: 0.6em;
+	font-size: 0.75em;
+	color: #666;
+	letter-spacing: -0.43px;
+	line-height: 1.3em;
+	text-align: left;
+}
+
+.qrm.woocommerce ul.products li.product .price ins,
+.qrm .product_list_widget ins {
+	color: inherit;
+}
+
+
+
+.qrm.woocommerce ul.products li.product-category img,
+.qrm.woocommerce ul.products li.product-category a img {
+	height: 160px !important;
+	object-fit: cover;
+}
+
+.qrm.woocommerce ul.products li.product-category a h2.woocommerce-loop-category__title {
+	font-size: 0.95em;
+	padding: .5em 16px !important;
+}
+
+
+.qrm .woocommerce-products-header__title.page-title {
+	text-align: left;
+	font-weight: 700;
+	font-size: 1.6em;
+}
+
+.qrm.woocommerce .woocommerce-products-header__title.page-title {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+.qrm.woocommerce ul.products li.product {
+	background: #FFFFFF;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.10);
+	padding: 0;
+}
+
+.qrm.woocommerce ul.products li.product-category a h2.woocommerce-loop-category__title mark {
+	background: inherit;
+	color: inherit;
+	font-size: inherit;
+}
+
+.qrm.woocommerce .count {
+	float: unset;
+	padding: 0;
+	margin: 0;
+}
+
+.qrm.woocommerce .woocommerce-result-count,
+.qrm.woocommerce-page .woocommerce-result-count {
+	font-size: 0.8em;
+	color: #666;
+	font-style: italic;
+	text-transform: none;
+	float: left;
+}
+
+/* Single */
+
+.qrm.woocommerce ul.products li.product span.onsale {
+	position: absolute;
+	top: 0 !important;
+	left: auto !important;
+	right: 0 !important;
+	bottom: auto;
+	font-weight: 700;
+	font-size: 0.6em;
+	min-height: unset;
+	line-height: 1em;
+	letter-spacing: 1px;
+	padding: 0.6em !important;
+	background: #cd2653 !important;
+	color: #fff;
+	text-transform: uppercase;
+	z-index: 1;
+	border: 0;
+	margin: 0;
+	width: unset;
+	height: auto;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+}
+
+.qrm .qrm-description p {
+	margin-bottom: 0;
+}
+
+
+/* Select Box */
+
+
+
+.woocommerce-ordering select {
+	min-height: 2em;
+	border: none;
+	padding: 0 6px;
+	background: #f0f0f0;
+	color: #666;
+	font-size: 0.8em;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+}

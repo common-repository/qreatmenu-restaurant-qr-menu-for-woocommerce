@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Qreatmenu - Restaurant QR Menu for WooCommerce\n"
+"POT-Creation-Date: 2020-07-28 18:14+0300\n"
+"PO-Revision-Date: 2020-07-28 18:14+0300\n"
+"Last-Translator: \n"
+"Language-Team: Qreat Team\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:152
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:159
+msgid "QR Menu"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:162
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:171
+msgid "Quick Quide"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:163
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:192
+msgid "QR Code Generate"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:175
+msgid "Create Page"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:175
+msgid "Step 1"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:178
+msgid "Set The Page as Menu"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:178
+msgid "Step 2"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:181
+msgid "Add Your First Product"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:181
+msgid "Step 3"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:184
+msgid "Generate the QR"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:184
+msgid "Step 4"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:193
+msgid "The QR Code forward your Customer to the WooCommerce Shop Page"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:200
+msgid "Restaurant Page URL"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:203
+msgid "Generate"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:204
+msgid "here"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:216
+msgid "Download"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:217
+msgid "QR Menu SVG Code"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:217
+msgid "SVG"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:218
+msgid "QR Menu PNG Code"
+msgstr ""
+
+#: admin/class-qreat-woocommerce-qr-menu-admin.php:218
+msgid "PNG"
+msgstr ""
+
+#: qreat-woocommerce-qr-menu.php:117
+msgid "Categories"
+msgstr ""
+
+#: qreat-woocommerce-qr-menu.php:202
+msgid "MENU"
+msgstr ""
